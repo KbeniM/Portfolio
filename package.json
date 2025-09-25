@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "export": "next build",
-    "deploy": "npm run build && gh-pages -d out"
+    "deploy": "pnpm run build && gh-pages -d out"
   },
   "dependencies": {
     "@iconify/react": "^6.0.2",
